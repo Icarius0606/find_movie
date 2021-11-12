@@ -36,6 +36,7 @@ Flask-SQLAlchemy==2.3.2
 future==0.18.2
 gast==0.2.2
 grpcio==1.19.0
+gunicorn=20.1.0
 h5py==2.9.0
 helpdev==0.7.1
 idna==2.10
@@ -124,7 +125,6 @@ QtPy==1.11.2
 regex==2021.9.30
 requests==2.25.1
 rope==0.21.1
-Rtree==0.9.0
 scikit-learn==0.24.2
 scipy==1.5.2
 Send2Trash==1.8.0
