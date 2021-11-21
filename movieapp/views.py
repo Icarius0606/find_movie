@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/index/')
 def index():
-     return render_template_string("saisissez l'identifiant ou le nom du film à la fin de l'url pour avoir une recommandation. Par exemple : '/recommend/043726'") 
+     return render_template_string("saisissez l'identifiant ou le nom du film à la fin de l'url pour avoir une recommandation. Par exemple : 'https://findmovie0606.herokuapp.com/recommend/043726' ou https://findmovie0606.herokuapp.com/recommend/spectre") 
 
 @app.route('/recommend/<uid>')
 def reco(uid):
